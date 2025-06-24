@@ -67,13 +67,13 @@ Make sure PostgreSQL is running:
 sudo service postgresql start
 ```
 
-Create the database:
+Create the database, example:
 
 ```bash
 createdb payslip_db -U your_postgres_user
 ```
 
-Apply DB schema:
+Apply DB schema, example:
 
 ```bash
 psql -U your_postgres_user -d payslip_db -f db/init_db.sql
@@ -96,7 +96,7 @@ python scripts/seed_admin.py
 uvicorn app.main:app --reload
 ```
 
-Access the Swagger UI at:
+Access the Swagger UI at, example:
 
 ```
 http://localhost:8000/docs
@@ -106,7 +106,7 @@ http://localhost:8000/docs
 
 ## 🧪 Unit & Integration Testing
 
-We use `pytest` for testing. You can write tests inside a `tests/` folder like this:
+I use `pytest` for testing. You can write tests inside a `tests/` folder like this:
 
 ```bash
 mkdir tests
