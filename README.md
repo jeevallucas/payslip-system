@@ -183,33 +183,6 @@ To implement audit logs:
 
 ---
 
-## ✅ Next Steps (Optional Enhancements)
-
-- Implement JWT-based login/logout
-- Add role-based access control
-- Add unit/integration tests
-- Add pagination for payslip summary
-- Add export functionality (PDF/CSV)
-- Integrate with email for payslip delivery
-
----
-
-## 🙌 Contributing
-
-Contributions are welcome! Please open issues or submit pull requests for improvements such as:
-- Better salary calculation logic
-- UI enhancements
-- Bug fixes
-- Additional features (e.g., leave tracking, tax deduction)
-
----
-
-## 💬 License
-
-MIT License – see `LICENSE` for details.
-
----
-
 ## 🧑‍💻 Author
 
 Developed by Jeevallucas Gautama
