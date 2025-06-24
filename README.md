@@ -24,7 +24,6 @@ All operations are based on **monthly payroll periods**, and salaries are calcul
 
 - **Python** (FastAPI backend)
 - **PostgreSQL** as the main database
-- **JWT-based authentication** (coming soon)
 - **Pydantic** for request validation
 - **Psycopg2** for PostgreSQL interaction
 - **Faker** for test data
