@@ -104,12 +104,6 @@ http://localhost:8000/docs
 
 ---
 
-## 🔐 Authentication (Coming Soon)
-
-Authentication will be implemented using **JWT tokens** for both admin and employee roles. For now, a simple hardcoded token placeholder is used in each endpoint.
-
----
-
 ## 🧪 Unit & Integration Testing
 
 We use `pytest` for testing. You can write tests inside a `tests/` folder like this:
