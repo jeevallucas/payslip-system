@@ -1,0 +1,10 @@
+Faker==23.3.1
+psycopg2-binary==2.9.9
+bcrypt==4.1.0
+fastapi==0.95.0
+uvicorn==0.21.1
+pydantic==1.10.7
+python-jose==3.3.0          # For JWT
+passlib==1.7.4             # For password hashing
+bcrypt==4.1.0              # Already installed from earlier
+psycopg2-binary==2.9.9     # Already installed
