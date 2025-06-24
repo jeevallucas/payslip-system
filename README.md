@@ -152,27 +152,6 @@ Database Layer (PostgreSQL)
 ### Scalability Considerations:
 - All endpoints support concurrent access.
 - Database indexing ensures fast queries.
-- Future plans include caching and async job queues for large-scale payroll processing.
-
----
-
-## 📈 Performance Scalability
-
-Each functionality should be benchmarked for performance under load. Tools like `locust`, `wrk`, or `JMeter` can simulate high traffic scenarios.
-
----
-
-## 📜 Audit Logs (Optional Enhancement)
-
-To implement audit logs:
-- Add an `audit_logs` table to track changes.
-- Use triggers or application logic to log important actions.
-- Include fields like:
-  - `user_id`
-  - `action_type`
-  - `request_ip`
-  - `request_id`
-  - `timestamp`
 
 ---
 
